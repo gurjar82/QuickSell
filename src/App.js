@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Header from "./Components/Header";
+import Divbody from "./Components/Divbody";
+import { useState, useEffect } from "react";
 function App() {
+  const [group, setgroup] = useState("userId");
+  const [order, setorder] = useState("title");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header setgroup={setgroup} setorder={setorder} />
+      <Divbody group={group} order={order} />
     </div>
   );
 }

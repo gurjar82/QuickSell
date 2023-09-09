@@ -1,0 +1,8 @@
+.divbody {
+  background-color: #e3ecff;
+  /* width: 1000px; */
+  /* height: 100%; */
+  overflow: scroll;
+  min-height: 1000px;
+  margin-top: 10px;
+}

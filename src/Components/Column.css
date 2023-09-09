@@ -1,0 +1,48 @@
+.colum {
+  margin: 50px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.colhead {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.coltitle {
+  display: flex;
+}
+.coltitle .name {
+  padding-top: 15px;
+  display: flex;
+}
+.coltitle .name .count {
+  margin-left: 15px;
+}
+.coltitle .icon img {
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+.cardAdd {
+  display: flex;
+  flex-direction: row;
+}
+.cardAdd .addIcon {
+  margin-left: 20px;
+  font-size: 30px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardAdd .addIcon2 {
+  margin-left: 20px;
+  font-size: 30px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
